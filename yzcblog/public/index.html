@@ -1,6 +1,6 @@
 
  <!DOCTYPE HTML>
-<html lang="zh-CN" xmlns:wb="http://open.weibo.com/wb">
+<html lang="zh-CN">
 <head>
   <meta charset="UTF-8">
   
@@ -13,13 +13,6 @@
     
     
     
-    <meta name="twitter:card" content="summary" />
-    <meta name="twitter:site" content="yzc585" />
-    <meta name="twitter:title" content="让你的精彩点缀世界" />
-      
-    
-    
-    <link rel="alternate" href="atom.xml" title="让你的精彩点缀世界" type="application/atom+xml">
     
     
     <link rel="icon" href="/img/favicon.ico">
@@ -35,6 +28,10 @@
     <header>
       <div>
 		
+			<div id="imglogo">
+				<a href="/"><img src="/img/logo.svg" alt="让你的精彩点缀世界" title="让你的精彩点缀世界"/></a>
+			</div>
+			
 			<div id="textlogo">
 				<h1 class="site-name"><a href="/" title="让你的精彩点缀世界">让你的精彩点缀世界</a></h1>
 				<h2 class="blog-motto">不像程序员的程序猿</h2>
@@ -43,19 +40,17 @@
 			</a></div>
 			<nav class="animated">
 				<ul>
-					<ul>
-					 
-						<li><a href="/">首页</a></li>
 					
-						<li><a href="/archives">文章</a></li>
+						<li><a href="/">Home</a></li>
 					
-						<li><a href="/about">关于</a></li>
+						<li><a href="/archives">Archives</a></li>
 					
 					<li>
 					
-					<form class="search" action="/search/index.html" method="get" accept-charset="utf-8">
+					<form class="search" action="//google.com/search" method="get" accept-charset="utf-8">
 						<label>Search</label>
-						<input type="text" id="search" name="q" autocomplete="off" maxlength="30" placeholder="搜索" />
+						<input type="text" id="search" name="q" autocomplete="off" maxlength="20" placeholder="搜索" />
+						<input type="hidden" name="q" value="site:yzc585.cn">
 					</form>
 					
 					</li>
@@ -64,8 +59,6 @@
 </div>
 
     </header>
-    
-
     <div id="container">
       <div id="main">
 
@@ -119,9 +112,6 @@
 <div class="closeaside"><a class="closebutton" href="#" title="隐藏侧边栏"></a></div>
 <aside class="clearfix">
 
-  <p class="asidetitle">关注</p>
-<iframe width="100%" height="120" class="share_self" marginheight="5px" frameborder="0" scrolling="no" src="http://widget.weibo.com/weiboshow/index.php?language=&width=0&height=120&fansRow=2&ptype=1&speed=0&skin=1&isTitle=1&noborder=1&isWeibo=1&isFans=1&uid=2583230784&verifier=1d07a1a0&dpc=1"></iframe>
-
   
 <div class="categorieslist">
 	<p class="asidetitle">分类</p>
@@ -135,18 +125,8 @@
 
   
 
-  <div class="linkslist">
-  <p class="asidetitle">友情链接</p>
-    <ul>
-      <li><a href="http://blog.csdn.net/dreajay" target="_blank" title="dreajay csdn">CSDN</a></li>
-      <li><a href="https://github.com/dreajay" target="_blank" title="dreajay github">github</a></li>
-      <li><a href="http://www.douban.com/people/72514701/" target="_blank" title="dreajay豆瓣">豆瓣</a></li>
-    </ul>
-</div>
-
-
   <div class="rsspart">
-	<a href="atom.xml" target="_blank" title="rss">RSS 订阅</a>
+	<a href="null" target="_blank" title="rss">RSS 订阅</a>
 </div>
 
 </aside>
@@ -154,27 +134,20 @@
     </div>
     <footer><div id="footer" >
 	
+	<div class="line">
+		<span></span>
+		<div class="author"></div>
+	</div>
 	
-	<section class="info">
-		<p> 没有礁石，就没有美丽的浪花；没有挫折，就没有壮丽的人生！ <br/>
-			再长的路，一步步也能走完，再短的路，不迈开双脚也无法到达，平凡的脚步也可以走完伟大的行程！</p>
-	</section>
-	 
-	<div class="social-font" class="clearfix">
-		
-		<a href="http://weibo.com/yjyyzc" target="_blank" title="weibo"></a>
+	
+	<div class="social-font clearfix">
 		
 		
-		<a href="https://twitter.com/yzc585" target="_blank" title="twitter"></a>
 		
 		
-		<a href="https://github.com/yzc585" target="_blank" title="github"></a>
-		
-		
-		<a href="https://www.facebook.com/yzc585" target="_blank" title="facebook"></a>
 		
 	</div>
-		<p class="copyright">Powered by <a href="http://hexo.io" target="_blank" title="hexo">hexo</a> and Theme by <a href="https://github.com/A-limon/pacman" target="_blank" title="pacman">pacman</a> © 2016 
+		<p class="copyright">Powered by <a href="http://hexo.io" target="_blank" title="hexo">hexo</a> and Theme by <a href="https://github.com/A-limon/pacman" target="_blank" title="Pacman">Pacman</a> © 2016 
 		
 		<a href="http://yzc585.cn" target="_blank" title="YuZhichao">YuZhichao</a>
 		
@@ -233,47 +206,5 @@ $(document).ready(function(){
 
 
 
-
-
-
-<script type="text/javascript">
-var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
-document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F77edef7e6931022edbd2322ec66456e1' type='text/javascript'%3E%3C/script%3E"));
-</script>
-
-<div id="totop" style="position:fixed;bottom:150px;right:50px;cursor: pointer;">
-	<a title="返回顶部"><img src="/img/scrollup.png"/></a>
-</div>
-<script type="text/javascript">
-	(function($) { 
-		// When to show the scroll link
-		// higher number = scroll link appears further down the page   
-		var upperLimit = 300;
-		
-		// Our scroll link element
-		var scrollElem = $('#totop');
-	   
-		// Scroll to top speed
-		var scrollSpeed = 800;
-	   
-		// Show and hide the scroll to top link based on scroll position   
-		scrollElem.hide();
-		$(window).scroll(function () {            
-			var scrollTop = $(document).scrollTop();       
-			if ( scrollTop > upperLimit ) {
-				$(scrollElem).stop().fadeTo(300, 1); // fade back in           
-			}else{       
-				$(scrollElem).stop().fadeTo(300, 0); // fade out
-			}
-		});
-		// Scroll to top animation on click
-		$(scrollElem).click(function(){
-			$('html, body').animate({scrollTop:0}, scrollSpeed); return false;
-		});
-	})(jQuery);
-</script>
-
-
   </body>
  </html>
-
